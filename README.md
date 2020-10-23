@@ -1,1 +1,1 @@
-# dibta-swarm
+# dipta-swarm
