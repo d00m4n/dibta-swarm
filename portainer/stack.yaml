@@ -36,7 +36,7 @@ services:
     environment:
       AGENT_CLUSTER_ADDR: tasks.agent
     volumes:
-      - /var/run/docker.sock:var/run/docker.sock
+      - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - target: 9001
         published: 9001
