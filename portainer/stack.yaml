@@ -26,7 +26,7 @@ services:
       replicas: 1
       labels:
         traefik.port: 9000
-        traefik.frontend.rule: "Host:portainer.34.65.53.241.nip.io"
+        traefik.frontend.rule: "Host:portainer.cursdipta.duckdns.org"
         traefik.docker.network: 'proxy'
       placement:
         constraints: [node.role == manager]
